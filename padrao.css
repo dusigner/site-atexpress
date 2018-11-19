@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+img {
+	border: 0px;
+}
+	
+
+body { 
+	background: #9fa9b1 url(imagens/fundo.jpg) top center no-repeat;
+}
+
+#estrutura {
+	width: 795px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#box1 {
+	width: 380px;
+	display: block;
+}
+#box2 {
+	margin-top: 15px;
+	width: 376px;
+	height: 350px;
+	display: block;
+	clear: both;
+	background: url(imagens/box1.png) no-repeat;
+
+}
+#logo {
+	background: url(imagens/fundo-logo.png) no-repeat;
+	width: 343px;
+	height: 118px;
+	margin-top: 30px;
+
+}
+#tel {
+	float: right;
+	margin-top: -100px;
+	margin-right: 50px;
+	font: bold 25px Verdana, Geneva, sans-serif;
+	text-align: center;
+	color: #B6101E;
+	
+}
+.dhtmlgoodies_question p:hover {
+	color: #F00;
+}
+#imgLogo {
+	margin: 10px;
+	margin-left: 15px;
+}
+#box2 h1 {
+	color: #fff;
+	font: bold 24px Georgia, "Times New Roman", Times, serif;
+	padding: 40px 10px;
+}
+#box2 h2 {
+	margin-left: 30px;
+	margin-top: -9px;
+	font: 20px Georgia, "Times New Roman", Times, serif;
+}
+#box2 p {
+	font: bold 15px Verdana, Geneva, sans-serif;
+	margin-top: 27px;
+	margin-left: 30px;
+}
+#box3 {
+	background: url(imagens/bg-contato.png) no-repeat;
+	width: 500px;
+	height: 380px;
+	display: block;
+	margin-left: 15px;
+}
+#box3 h1 {
+	font: bold 24px  Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	padding-top: 40px;
+	margin-left: 15px;
+}
+#contato {
+	width: 300px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#contato .campo {
+	margin-bottom: 10px;
+	padding: 10px;
+	height: 20px;
+	width: 275px;
+	border: 1px solid #000;
+	font: 14px Verdana, Geneva, sans-serif;
+}
+#contato .campoDDD {
+	margin-bottom: 10px;
+	padding: 10px;
+	height: 20px;
+	width: 20px;
+	border: 1px solid #000;
+	font: 14px Verdana, Geneva, sans-serif;
+}
+#contato .campoTel {
+	margin-bottom: 10px;
+	padding: 10px;
+	height: 20px;
+	width: 220px;
+	border: 1px solid #000;
+	font: 14px Verdana, Geneva, sans-serif;
+}
+#contato .campo3 {
+	padding: 10px;
+	height: 50px;
+	width: 270px;
+	border: 1px solid #000;
+	font: 14px Verdana, Geneva, sans-serif;	
+}
+#contato .botao {
+	background: #F00;
+	border: 0px;
+	padding: 8px 20px 8px 20px;
+	color: #FFF;
+	margin-top: -15px;
+	font: 12px bold Verdana, Geneva, sans-serif;
+	text-transform: uppercase;
+}
+#contato .botao:hover {
+	background: #006;
+	cursor: pointer;
+}
+#coluna01 {
+	width: 360px;
+	float: left;
+}
+#coluna02 {
+	float: right;
+	width: 400px;
+}
+#tit {
+	background: url(imagens/menutit.png) no-repeat;
+	height: 55px;
+	width: 403px;
+	margin-top: 5px;
+	margin-left: 2px;
+	padding-top: 15px;
+}
+
+#tit h1{
+	color: #FFF;
+	font: bold 24px Georgia, "Times New Roman", Times, serif;
+	margin-left: 20px;
+	display: block;
+}
+#tit h2{
+	color: #999999;
+	font: bold 14px Georgia, "Times New Roman", Times, serif;
+	margin-left: 20px;
+}
+
+/* MENU */
+
+.dhtmlgoodies_question{	/* Styling question */
+	/* Start layout CSS */
+	color:#FFF;
+	font: 22px Georgia, "Times New Roman", Times, serif;
+	background: url(imagens/menu-itens.jpg) no-repeat;
+	width:430px;
+	margin-left: 4px;
+	padding-left:2px;
+	height:45px;
+
+	/* End layout CSS */
+
+	overflow:hidden;
+	cursor:pointer;
+}
+.dhtmlgoodies_question p {
+	margin-left: 15px;
+	margin-top: 8px;
+}
+.dhtmlgoodies_answer p {
+	margin-bottom: 10px;
+	line-height: 18px;
+}
+.dhtmlgoodies_answer{	/* Parent box of slide down content */
+	/* Start layout CSS */
+	background: url(imagens/bg-menu.png) center bottom no-repeat;
+	width:393px;
+	margin-left: 4px;
+
+	/* End layout CSS */
+
+	visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+
+}
+.dhtmlgoodies_answer_content{	/* Content that is slided down */
+	padding:15px;
+	margin-left: 10px;
+	font: 12px Verdana, Geneva, sans-serif;
+	font-size:0.9em;
+	position:relative;
+}
+#footer {
+	display: block;
+	font: 11px Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
